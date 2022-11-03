@@ -63,3 +63,4 @@ def delete_drink(id):
     db.session.delete(drink)
     db.session.commit()
     return {"message" : "yeet!@"}
+
